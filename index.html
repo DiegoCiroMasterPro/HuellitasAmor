@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas de Amor</title>
+    
+     <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+          crossorigin="anonymous"
+        />
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous">
+    </script>
+
+</head>
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-danger" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/LOGOTITULO1.png" alt="" width="200">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto" >
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Voluntariado</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Adopcion
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Adopta un peludito</a></li>
+                        <li><a class="dropdown-item" href="#">Historias de adopcion</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Donaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Noticias</a>
+                    </li>
+                  </ul>
+            </div>
+
+
+
+
+        </div>
+    </nav>
+
+
+    <!-- Carrousel -->
+    <div style="position: relative; z-index: 0;">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="Carrousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Carrousel1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>¡CONOCE NUESTROS PELUDITOS!</h5>
+            <p>Explora nuestra familia peluda y descubre a tu nuevo amigo.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Juegos.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>¡DIVERSION INAGOTABLE!</h5>
+            <p>Juega y estimula las mentes curiosas de tus peludos</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Insumos.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>¡CUIDA A TU PELUDITO!</h5>
+            <p>Todo lo que necesitas para tus queridas mascotas</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+    <!-- ribbon -->
+    <div id="ribbon">
+      <div id="birthday" class="container w-50 pl-5 pr-5 rounded-lg">
+          <!-- slide -->
+          <div class="row align-items-center">
+              <div class="col-sm col-sm p-3" id="description">
+                  <img src="img/Adoptaicon.png" class="w-75 mx-auto d-block" alt="...">
+              </div>
+  
+              <div class="col-sm p-3 text-light text-center">
+                  <p class="text-dark h5">Date la oportunidad</p>
+                  <h4 class="h2 text-shadow">de hacer tu vida mas feliz</h4>
+                  <a href="#" class="btn btn-warning btn-lg">¡ADOPTA!</a> <!-- El botón "Adopta" -->
+              </div>
+          </div><!-- SLIDE-->
+      </div>
+  </div>
+  
+    <!-- separadores -->
+    <div id="separator-ribbon">
+      <div class="content bg-black"></div>
+    </div>
+
+    <!--perritos-->
+    <div id="servicios">
+      <div class="container-md p-5">
+        
+        <div class="row pt-5">
+            <h3 class="text-center pb-5 pt-5 h1">Nuestros Servicios </h3>
+        </div>
+
+        <div class="row">
+          <div class="col-md">
+            <div class="card w-100 card-border mb-5">
+                <img src="img/Icono1.png" class="card-img-top" alt="...">
+                <div class="card-body text-center d-flex flex-column align-items-center">
+                    <a href="#" class="btn btn-primary">Educacion y capacitacion</a>
+                </div>
+            </div>
+          </div>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/Icono2.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center d-flex flex-column align-items-center">
+                      <a href="#" class="btn btn-primary">Apoyo veterinario</a>
+                  </div>
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/Icono3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center d-flex flex-column align-items-center">
+                      <a href="#" class="btn btn-primary">Entrenamiento Online</a>
+                  </div>
+                  </div>
+            </div>
+          </div>
+
+        </div>
+      </div>  
+    </div>
+    
+
+    <div id="separator-adopcion">
+      <div class="content bg-success"></div>
+    </div>
+    
+    <div id="adopcion" class="px-5 pb-5 bg-success">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center text-white text-shadow h1">Peluditos en adopcion</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-2 row-cols-sm-2 row-cols-md-4">
+                <div class="col-sm">
+                  <img src="img/Molly1.jpg" alt="" class="w-100 adopcion">
+                  <div class="text-center"><span class="adopcion-name h5 p-2">Molly</span></div>
+                </div>
+                <div class="col-sm">
+                  <img src="img/rocky1.jpeg" alt="" class="w-100 adopcion">
+                  <div class="text-center"><span class="adopcion-name h5 p-2">Rocky</span></div>
+                </div>
+                <div class="col-sm">
+                  <img src="img/Missi.jpeg" alt="" class="w-100 adopcion">
+                  <div class="text-center"><span class="adopcion-name h5 p-2">Missi</span></div>
+                </div>
+                <div class="col-sm">
+                  <img src="img/Tigre.jpeg" alt="" class="w-100 adopcion">
+                  <div class="text-center"><span class="adopcion-name h5 p-2">Tigre</span></div>
+                </div>
+            </div>
+            <div class="row py-5">
+              <div class="col text-center">
+                <a href="#" class="link-dark">
+                  <button class="btn btn-warning btn-lg rounded-pill p-3 font-weight-bold">Ver catalogo de peluditos</button>
+                </a>
+                
+              </div>
+                
+            </div>
+        </div>
+        <div id="separator-adopcion-footer">
+        </div>
+    </div>
+
+    
+
+
+    <!-- separador donaciones -->
+
+    <!-- cosita -->
+
+    <!-- play jintendo -->
+
+    <!-- footer -->
+    
+</body>
+</html>
